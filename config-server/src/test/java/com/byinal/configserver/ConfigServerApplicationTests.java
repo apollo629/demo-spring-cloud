@@ -1,4 +1,4 @@
-package com.byinal.paymentservice;
+package com.byinal.configserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PaymentServiceApplicationTests {
+public class ConfigServerApplicationTests {
 
     @Test
     public void contextLoads() {

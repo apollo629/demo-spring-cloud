@@ -1,4 +1,4 @@
-package com.byinal.paymentservice;
+package com.byinal.paymentserver;
 
 import com.byinal.model.Payment;
 import org.springframework.boot.ApplicationRunner;
@@ -38,7 +38,6 @@ public class PaymentServiceApplication {
 }
 
 interface PaymentRepository extends ReactiveMongoRepository<Payment, String> {
-
     Flux<Payment> findByName(String name);
 }
 

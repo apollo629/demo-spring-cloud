@@ -1,4 +1,4 @@
-package com.byinal.paymentservice;
+package com.byinal.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
